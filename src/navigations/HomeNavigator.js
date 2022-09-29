@@ -36,7 +36,7 @@ function Settings() {
   );
 }
 
-function HomeNavigator() {
+export default function HomeNavigator() {
   return (
     <HomeStack.Navigator>
       <HomeStack.Screen name="Contacts" component={Contacts} />
