@@ -1,11 +1,13 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {Text} from 'react-native';
+import {Text, View} from 'react-native';
 
-export default function AppNavContainer() {
+export default function StackNavigator() {
   return (
     <NavigationContainer>
-      <Text>Hello world!</Text>
+      <View>
+        <Text>Hello world</Text>
+      </View>
     </NavigationContainer>
   );
 }

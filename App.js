@@ -1,8 +1,8 @@
 import React from 'react';
-import AppNavContainer from './src/navigations';
+import StackNavigator from './src/navigations/StackNavigator';
 
 const App = () => {
-  return <AppNavContainer />;
+  return <StackNavigator />;
 };
 
 export default App;
